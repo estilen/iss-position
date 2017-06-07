@@ -10,7 +10,9 @@ This is a basic Python 3.6 wrapper for the Open Notify API, speficically the one
 
 ### Example
 
-To display the station's position the `station_position()` method can be assigned to a variable. Use the `print_data()` method to print the data to shell.
+The `station_position` function calls the `_get_data` function, which gets the data from the API. The data is passed into the `StationPos` class and the function returns its instance.
+
+To display the station's position the `station_position` function can be assigned to a variable. Use the `print_data()` method to print the data to shell.
 
 ```
 >>> position = station_position()
