@@ -2,6 +2,8 @@
 
 This is a basic Python 3.6 wrapper for the Open Notify API, speficically the one that provides current location of the International Space Station.
 
+[Open Notify website](http://open-notify.org/)
+
 ### Dependencies
 * [Python 3.6](https://www.python.org/downloads/release/python-361/)
 * [requests library](http://docs.python-requests.org/en/master/)
